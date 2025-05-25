@@ -1,0 +1,103 @@
+QWidget {
+    color: #333333;
+    background-color: #F5F5F5;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+}
+
+QMainWindow {
+    background-color: #FFFFFF;
+}
+
+QTabWidget::pane {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+QTabBar::tab {
+    background: #EEEEEE;
+    color: #666666;
+    border: 1px solid #CCCCCC;
+    padding: 8px 20px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+QTabBar::tab:selected {
+    background: #FFFFFF;
+    color: #0078D4;
+    border-bottom-color: #0078D4;
+}
+
+QPushButton {
+    background-color: #F0F0F0;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    padding: 8px 16px;
+    min-width: 80px;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+}
+
+QPushButton:pressed {
+    background-color: #D9D9D9;
+}
+
+QLineEdit, QPlainTextEdit {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    padding: 6px;
+    selection-background-color: #0078D4;
+}
+
+QLineEdit:focus, QPlainTextEdit:focus {
+    border: 1px solid #0078D4;
+}
+
+QComboBox {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    padding: 6px;
+    min-width: 120px;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 20px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #FFFFFF;
+    color: #333333;
+    border: 1px solid #CCCCCC;
+    selection-background-color: #0078D4;
+}
+
+QGroupBox {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding-top: 25px;
+    font-weight: bold;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 5px;
+    color: #666666;
+}
+
+QStatusBar {
+    background-color: #F0F0F0;
+    color: #666666;
+    border-top: 1px solid #CCCCCC;
+}

@@ -53,7 +53,7 @@ python3 main.py
 **Arch**
 ```shell
 sudo pacman -Syy
- git clone https://github.com/ViVA505/twitch_users_profile_blanks
+git clone https://github.com/ViVA505/twitch_users_profile_blanks
 cd tw_users
 pip3 install -r requirements.txt
 python3 main.py
